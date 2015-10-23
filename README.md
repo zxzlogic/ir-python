@@ -1,4 +1,8 @@
 # ir-python
+A python implementation for information retrieval tasks, including forward/inverted index, basic retrieval models (e.g., BM25, uni-gram language model). The indexing module use a thread-safe Python bindings for LevelDB, a fast key-value storage library (https://code.google.com/p/py-leveldb/).
+
+run: sh buildIndex.sh
+
 1. tokenize corpus: buildIndex_tokenize.py
 input: the Robust2004 corpus
 output: ~/Documents/ir/Robust2004/result/tokenize/
