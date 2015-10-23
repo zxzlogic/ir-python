@@ -1,5 +1,5 @@
 # ir-python
-A python implementation for information retrieval tasks, including forward/inverted index, basic retrieval models (e.g., BM25, uni-gram language model). The indexing module use a thread-safe Python bindings for LevelDB, a fast key-value storage library (https://code.google.com/p/py-leveldb/).
+A python implementation for information retrieval tasks, including forward/inverted index, basic retrieval models (e.g., BM25, uni-gram language model). The indexing module uses a thread-safe Python bindings for LevelDB (https://code.google.com/p/py-leveldb/). LevelDB is a fast key-value storage library.
 
 run: sh buildIndex.sh
 
